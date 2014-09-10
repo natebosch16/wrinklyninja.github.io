@@ -1,13 +1,28 @@
 # Site settings
-title: Pixyll
-email: your_email@example.com
-author: John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title: WrinklyNinja’s Workshop
+author: Oliver Hamlet
+email: oliver.hamlet@gmail.com
+url: "https://wrinklyninja.github.io"
+description: >
+  A collection of words about code and related matters.
+
+# Nuts and Bolts settings
 baseurl: ""
-url: "http://pixyll.com"
-google_analytics: 
+google_analytics:
+
+# Social settings
+twitter_username: OliverHamlet
+github_username:  WrinklyNinja
+linkedin_username: oliverhamlet
+paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HDR3YBGGYCLBG
+google_plus_id: 104661746805670028939
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
 paginate: 3
+
+# Kramdown settings
+kramdown:
+  input: GFM
