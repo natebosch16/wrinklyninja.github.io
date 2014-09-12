@@ -5,3 +5,4 @@ _site
 _config.gh-pages.yml
 
 .sass-cache
+thumbs.db
