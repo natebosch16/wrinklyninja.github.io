@@ -36,6 +36,9 @@ a.fa:hover {
     <a class="fa fa-linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"></a>
 {% endif %}
 <div class="right">
+{% if site.bitcoin_address %}
+    <a class="fa fa-bitcoin" href="{% post_url 2014-09-12-donating-with-bitcoins %}#my-bitcoin-address"></a>
+{% endif %}
 {% if site.paypal_url %}
     <a class="fa fa-paypal" href="{{ site.paypal_url }}"></a>
 {% endif %}
