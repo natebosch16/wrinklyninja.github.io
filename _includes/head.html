@@ -22,7 +22,7 @@
     <!-- JS HTTPS Redirect -->
     <script>
         var host = "{{ site.url }}";  // Contains 'https://'
-        if (host.substring(5) == window.location.hostname && window.location.protocol != "https:") {
+        if (host.substring(8) == window.location.hostname && window.location.protocol != "https:") {
             window.location.protocol = "https";
         }
     </script>
