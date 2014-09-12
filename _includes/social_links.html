@@ -2,13 +2,15 @@
 .social-icons {
     padding: 0.5em 0 0 0;
     font-size: 1.25rem;
+    width: 100%;
+    text-align: left;
 }
-.social-icons > a {
+a.fa {
     padding: 0.2em;
     opacity: 0.8;
     cursor: pointer;
 }
-.social-icons > a:hover {
+a.fa:hover {
     opacity: 1;
 }
 </style>
@@ -29,6 +31,9 @@
 {% if site.linkedin_username %}
     <a class="fa fa-linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"></a>
 {% endif %}
+<div class="right">
 {% if site.paypal_url %}
     <a class="fa fa-paypal" href="{{ site.paypal_url }}"></a>
 {% endif %}
+<script id='fbapcfm'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=OliverHamlet&button=compact&url=https%3A%2F%2Fwrinklyninja.github.io';f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbapcfm');</script>
+</div>
