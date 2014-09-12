@@ -19,10 +19,14 @@ google_plus_id: 104661746805670028939
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
 permalink: pretty
 paginate: 3
 
 # Kramdown settings
 kramdown:
   input: GFM
+
+# GitHub-supported Jekyll gems
+gems:
+  - jekyll-mentions
+  - jemoji
