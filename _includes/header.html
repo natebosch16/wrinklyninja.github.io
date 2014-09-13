@@ -6,10 +6,9 @@
         {% include navigation.html %}
       </nav>
       <div class="clearfix"></div>
-      <div class="left social-icons">
+      {% if site.show_social_icons %}
         {% include social_links.html %}
-      </div>
-      <div class="clearfix"></div>
+      {% endif %}
     </div>
   </div>
 </header>

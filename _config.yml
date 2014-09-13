@@ -11,11 +11,14 @@ baseurl: ""
 google_analytics:
 
 # Social settings
+show_social_icons: true
 twitter_username: OliverHamlet
 github_username:  WrinklyNinja
 linkedin_username: oliverhamlet
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HDR3YBGGYCLBG
 google_plus_id: 104661746805670028939
+bitcoin_url: /bitcoin/
+flattr_button: "<script id='fbapcfm'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=OliverHamlet&button=compact&url=https%3A%2F%2Fwrinklyninja.github.io';f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbapcfm');</script>"
 
 # Build settings
 markdown: kramdown
