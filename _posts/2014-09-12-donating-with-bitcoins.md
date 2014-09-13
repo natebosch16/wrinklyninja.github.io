@@ -2,8 +2,8 @@
 layout: post
 title:  "Donating With Bitcoins"
 date:   2014-09-12 18:40
+update_date: 2014-09-13 06:23
 summary: "A guided adventure into the unknown."
-redirect_from: "/foo"
 categories:
   - site
   - update
@@ -69,19 +69,4 @@ Just remember: be careful when dealing with money or other sensitive information
 
 #### My Bitcoin Address
 
-Anyway, my bitcoin address as a `bitcoin:` URI, QR code and plain text is available below. Clicking the <i class="fa fa-bitcoin"></i> icon in the site header will bring you back to this section.
-
-<style>
-.bitcoin {
-    text-align: center;
-}
-.bitcoin img {
-    max-width: 30rem;
-}
-</style>
-<p class="bitcoin">
-    <a href="bitcoin:3PgJ2NmfRdG4qphZjgtHS3sJuNtHEHWHcL?amount=0.02&label=Oliver%20Hamlet">
-        <img src="/images/bitcoinQR.png">
-        3PgJ2NmfRdG4qphZjgtHS3sJuNtHEHWHcL
-    </a>
-</p>
+Anyway, my Bitcoin address as a `bitcoin:` URI, QR code and plain text can be reached by clicking the <a class="fa fa-bitcoin" href="{{ site.bitcoin_url }}"></a> icon in the site header.
