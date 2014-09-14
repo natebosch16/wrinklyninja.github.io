@@ -2,4 +2,4 @@
 # Run Jekyll
 
 cd /var/www
-bundle exec jekyll build --watch
+bundle exec jekyll build

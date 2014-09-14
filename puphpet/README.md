@@ -30,6 +30,8 @@ Download and install the following:
 
 To start and stop the virtual machine, open a command prompt, `cd` to the virtual machine folder, and run `vagrant up` or `vagrant halt` respectively. The site can be viewed at <http://wrinklyninja.dev/> whenever the virtual machine is running.
 
+In order to prevent Jekyll from locking the virtual machine's startup routine, it does not watch the repository folder for changes. To rebuild the site, you must log into the virtual machine, and run the `bundle exec jekyll build` command. The `--watch` parameter can be added to have Jekyll watch for changes, but this will be ended if you log out.
+
 To access the virtual machine, open PuTTY, and set the following settings:
 
 * Set `Host Name` to `127.0.0.1`
@@ -37,5 +39,3 @@ To access the virtual machine, open PuTTY, and set the following settings:
 * Set the private key file path to `<virtual machine path>\puphpet\files\dot\ssh\id_rsa.ppk`. The setting can be found under Connection->SSH->Auth.
 
 To save the settings, enter a name into the "Saved Sessions text box, and click the "Save" button. Then click "Open" to start an SSH session. When prompted to `login as: `, enter `vagrant`.
-
-You will need to access the virtual machine in order to install PHP dependencies and run unit tests (which aren't yet implemented).
