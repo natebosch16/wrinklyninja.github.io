@@ -18,7 +18,9 @@
     {% endif %}
   </div>
   <div class="right">
-    <a class="fa fa-bitcoin" href="{{ site.bitcoin_url }}"></a>
+    {% if site.bitcoin_url %}
+      <a class="fa fa-bitcoin" href="{{ site.bitcoin_url }}"></a>
+    {% endif %}
     {% if site.paypal_url %}
       <a class="fa fa-paypal" href="{{ site.paypal_url }}"></a>
     {% endif %}

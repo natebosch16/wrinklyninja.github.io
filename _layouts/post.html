@@ -13,9 +13,21 @@ layout: default
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
   {% endif %}
-  <span class="post-meta">A {{ minutes }} minute read</span>
+  <span class="post-meta small">{{ minutes }} minute read</span>
 </div>
 
 <article class="post-content">
   {{ content }}
 </article>
+
+{% if site.show_related_posts %}
+  <h3 class="related-post-title">Related Posts</h3>
+  {% for post in site.related_posts %}
+    <div class="post ml2">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+        <h4 class="post-title">{{ post.title }}</h4>
+        <p class="post-summary">{{ post.summary }}</p>
+      </a>
+    </div>
+  {% endfor %}
+{% endif %}

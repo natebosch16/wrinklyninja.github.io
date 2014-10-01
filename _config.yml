@@ -9,6 +9,8 @@ description: >
 # Nuts and Bolts settings
 baseurl: ""
 google_analytics:
+animated: false
+show_related_posts: false
 
 # Social settings
 show_social_icons: true
@@ -24,6 +26,8 @@ flattr_button: "<script id='fbapcfm'>(function(i){var f,s=document.getElementByI
 markdown: kramdown
 permalink: pretty
 paginate: 3
+sass:
+  compressed: true
 
 # Kramdown settings
 kramdown:
