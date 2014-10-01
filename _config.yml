@@ -9,7 +9,7 @@ description: >
 # Nuts and Bolts settings
 baseurl: ""
 google_analytics:
-animated: false
+animated: true
 show_related_posts: false
 
 # Social settings
