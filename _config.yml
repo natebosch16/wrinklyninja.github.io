@@ -1,31 +1,33 @@
 # Site settings
 title: WrinklyNinja’s Workshop
-author: Oliver Hamlet
 email: oliver.hamlet@gmail.com
-url: "https://wrinklyninja.github.io"
-description: >
-  A collection of words about code and related matters.
-
-# Nuts and Bolts settings
+author: Oliver Hamlet
+description: A collection of words about code and related matters.
 baseurl: ""
-google_analytics:
-animated: false
-show_related_posts: false
+url: "https://wrinklyninja.github.io"
 
-# Social settings
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: true
+show_post_footers:  false
+
+# Social icons
 show_social_icons: true
-twitter_username: OliverHamlet
 github_username:  WrinklyNinja
-linkedin_username: oliverhamlet
-paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HDR3YBGGYCLBG
+twitter_username: OliverHamlet
 google_plus_id: 104661746805670028939
+linkedin_username: oliverhamlet
 bitcoin_url: /bitcoin/
+paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HDR3YBGGYCLBG
 flattr_button: "<script id='fbapcfm'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=OliverHamlet&button=compact&url=https%3A%2F%2Fwrinklyninja.github.io';f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbapcfm');</script>"
 
 # Build settings
-markdown: kramdown
-permalink: pretty
-paginate: 3
+markdown:     kramdown
+permalink:    pretty
+paginate:     3
 sass:
   compressed: true
 
