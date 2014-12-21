@@ -8,6 +8,9 @@
     {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ "/images/icon.png" | prepend: site.baseurl }}" type="image/png">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/pixyll.css" | prepend: site.baseurl }}" type="text/css">
     <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}" type="text/css">
