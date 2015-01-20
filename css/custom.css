@@ -1,5 +1,4 @@
 /* Custom CSS for my projects pages. */
-
 .table-row {
     display: table-row;
 }
@@ -19,4 +18,14 @@ pre {
 }
 pre > code {
     color: white;
+}
+
+/* Custom CSS for my bitcoin page. */
+.bitcoin {
+    text-align: center;
+}
+.bitcoin img {
+    image-rendering: pixelated;
+    max-width: 30rem;
+    width: 100%;
 }
