@@ -46,7 +46,7 @@ summary: "Analysing the stats, one year on."
 article > table {
     margin: 1rem;
 }
-article > tableth, article > tabletd {
+article > table th, article > table td {
     padding: 10px;
 }
 article > table td:not(:first-child) {
