@@ -2,6 +2,7 @@
 layout: post
 title:  "Paid Skyrim Mods: Is This The End?"
 date:   2015-04-23
+update_date: 2015-04-25
 summary: "My thoughts on the matter."
 categories:
   - Skyrim
@@ -24,7 +25,7 @@ Allowing people to charge for mods also brings new opportunities. With the poten
 
 This isn't going to happen. How am I so sure? Because we have free modding utilities.
 
-Skyrim's modding utilities have always existed outside of Bethesda's copyright control. They could always have costed money, but they don't. Not only that, but most of Skyrim's modding utilities, including all the most popular, are licensed so that *you* could sell them, even if you have nothing to do with them. That doesn't happen either: at most, we see an option to donate to their developer(s).
+Skyrim's modding utilities have always existed outside of Bethesda's copyright control. They could always have cost money, but they don't. Not only that, but most of Skyrim's modding utilities, including all the most popular, are licensed so that *you* could sell them, even if you have nothing to do with them. That doesn't happen either: at most, we see an option to donate to their developer(s).
 
 I think this is down to the creators wanting others to see/use their work. When there's no monetisation, there's little point in sharing otherwise. The introduction of paid mods doesn't remove that desire, it just gets balanced against the desire to make money.
 
@@ -56,7 +57,7 @@ It seems to me that Bethesda don't care about their communities. Sure, they're a
 
 ### Less Cooperation, More Competition
 
-I think there's real danger of damage to the community. Users only have so much money to spend on mods, and are going to be less experimental and adventurous with trying out new mods if they cost money, so I think there's going to be a relative decrease in mod usage.
+There's already been real damage done to the community. Users only have so much money to spend on mods, and are going to be less experimental and adventurous with trying out new mods if they cost money, so I think there's going to be a relative decrease in mod usage.
 
 This means that modders who create paid mods will be in competition over users' wallets, and would probably be less willing to share their knowledge and skills as a result. It's not a given, of course, but I expect people will at least start off conservative while they get used to the new market. Who is going to make modders resources, or write tutorials? Some people aren't interested in money at all, but lots of people won't want others making money off their work.
 
@@ -69,6 +70,8 @@ Most modders aren't very good at telling people what they're allowed to do with 
 We've already had cases of paid mods being taken down because they used assets made by someone who didn't want them used commercially. A clear license would help avoid such situations. Stolen work and assets, where someone re-releases another's work as their own, is already a problem in the Skyrim modding community. It's not a big one, but then there has been very little incentive to act like that. However, there's now a financial incentive, so I think this is will be a growing problem.
 
 Valve has said they will respond to DMCA takedown notices, but that requires the rightful owners to become aware of the theft in the first place. Just look at YouTube: even Google, with all their algorithms, and record companies, with staff who are paid to do little but look for cases of copyright infringement, can't deal with the problem effectively. How is a single person who probably mods in their spare time supposed to do so?
+
+Not only is there a significant issue of theft between mods, but there are also issues with licensing surrounding the tools to make those mods. Many texture artists and modelers use student editions of software for which commercial licenses can cost thousands of pounds. What are the chances that all the new swords and armours for sale were made using legally licensed software? Not high, I'd guess.
 
 ### Great Content, Overpriced
 
@@ -86,10 +89,10 @@ Bethesda's announcement is very curiously worded so that it neither suggests pai
 
 ## Final Thoughts
 
-I don't think this change is going to affect mod users that much, but I do think it's going to make life more difficult for authors and fracture the community. I think paid mods are fine *in principle*, but this particular implementation doesn't do anyone in the community any favours.
+I don't think this change is going to affect mod users that much, but I do think it's going to make life more difficult for authors and fracture the community. I think paid mods are fine *in principle*, but this particular implementation doesn't do anyone in the community any favours, and exploits mod authors. There are many issues I haven't touched, like Valve's miserable excuse of a refund policy, and the nature of paid goods vs. mods, but I didn't want to end up too pessimistic...
 
 If you want to give a modder money, do it directly. Don't go through the Steam Workshop, there you're just throwing more money at people you've already paid for their work.
 
-As for myself, I've been playing Skyrim recently, and thought of a few ideas for some mods. However, this announcement has destroyed any interest in making those ideas a reality. There's just too much uncertainty to invest my time and effort building in Bethesda's world. I have no way of knowing what's in store for my potential creations.
+We've already seen people taking down their free mods in fear they'll be stolen and sold on the Workshop, or because they depend on mods that are getting paid-only updated. Mod authors who have decided to try out the new system are getting a huge amount of abuse from players who see them as "selling out to the man", and trying to stir up a witch-hunt. Some of what I have read is quite frankly sickening, and I think people need to take a deep breath and remember that there's no place for such vitriolic abuse. I only hope that when the dust settles, the community will still meaningfully exist. We had a good thing going, for a while.
 
 LOOT will remain free for the foreseeable future, but I'll be keeping a close eye on how the market develops. I'm not above monetising my own work to match market trends, eg. charging to use it with paid mods, but as things stand I have no interest in doing so.
