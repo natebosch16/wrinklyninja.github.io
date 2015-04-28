@@ -2,12 +2,14 @@
 layout: post
 title:  "Paid Skyrim Mods: Is This The End?"
 date:   2015-04-23
-update_date: 2015-04-25
+update_date: 2015-04-28
 summary: "My thoughts on the matter."
 categories:
   - Skyrim
   - modding
 ---
+
+*Update: Valve and Bethesda have now reversed their decision, removing paid mods from the Skyrim workshop and refunding any purchases made. It's good to see them listening, and hopefully they'll use the feedback gathered to improve the system for whatever game they try it with next.*
 
 Bethesda just [announced](http://www.bethblog.com/2015/04/23/skyrim-workshop-now-supports-paid-mods/) that they've added support for paid mods for Skyrim on Steam Workshop. This is the biggest change that's happened to modding their games since the release of the Construction Set for Morrowind, over a decade ago.
 
