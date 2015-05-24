@@ -29,3 +29,7 @@ pre > code {
     max-width: 30rem;
     width: 100%;
 }
+
+ol ol {
+    list-style-type: lower-alpha;
+}
